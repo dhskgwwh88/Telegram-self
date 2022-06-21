@@ -80,8 +80,8 @@ rj-self help commands:
 '''
 
 #!-------------------------------- Client Setup
-api_id =2586462 #your api id 
-api_hash = '68542129131999986899b84a10a6170c'#your api hash
+api_id  14483301#your api id 
+api_hash = 'b2c60a18d2d213a9056a3658ea684bf9'#your api hash
 bot = Client('amirairj-self', api_id, api_hash,workers=7)
 with bot:
     admin=bot.get_me().id
